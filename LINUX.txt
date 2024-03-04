@@ -1,0 +1,254 @@
+linux - FREE AND OPEN SOURCE PLATFORM ,WE CAN CREATE OUR OWN VERSION OF LINUX, ITS COST EFFECTIVE,CUSTOMIZATION,EXTREMELY SECURE,ITS HAVING LIGHT WEIGHT,
+        MOST OF SERVERS ARE RUNNING ON LINUX,
+
+
+UBUNTU -- FLAVOURS OF PYTHON
+
+mkdir --- make directory using this command we can create a folder or directory in linux
+
+mkdir folder1 -- create a folder in current directory name as folder1
+
+ls ---- list the files and folder in current directory.
+
+mkdir a1 b1 c1 -----create multiple directory at same time.
+
+    2  mkdir dev
+    3  clear
+    4  mkdir folder1
+    5  ls
+    6  mkdir a1 b1 c1
+    7  ls
+    8  clear
+    9  mkdir folder1
+   10  ls
+   11  mkdir a1,b1,c1
+   12  ls
+   13  cd change the directory
+   14  ls
+   15  cd a1
+   16  cd ..
+   17  ls
+   18  cd a1
+   19  mkdir a2
+   20  ls
+   21  cd a2
+   22  mkdir a3
+   23  cd ..  ---- move one directory back
+   24  cd a2
+   25  ls
+   26  pwd
+   27  cd a3
+   28  pwd  --- present working directory ex./home/ubuntu/a1/a2/a3
+   29  cd ../../../-----------move 3 directory back
+   33  cd a1/a2/a3 ----move to a3 which is inside a1/a2
+   34  cd------- move to home directory
+   35  pwd---------present working directory.
+   36     49  cd -
+   50  touch s1.txt
+   51  ls
+   52  touch s2.txt
+   53  ls
+   54  touch s3.txt ---- it is used to creste a file 
+   55  ls
+   56  touch s4.txt s5.txt s6.txt 
+   57  ls
+   58  cat s1.txt ----- it is used to show the file content
+   59  cat s2.txt
+   60  cat s3.txt
+   61  ls
+   62  cat s4.txt
+   63  cd
+   64  cd b1 
+   68  echo "hello my name is devanshu" > m1.txt  ------- it is used to enter the single line comment in the file 
+   69  cat m1.txt
+   70  clear
+   71  history
+   72  cd b1
+   73  echo "i am a working professional" > m2.txt
+   74  cat m2.txt
+   75  ls
+   76  echo " my name in kanhiya" > m1.txt ------- it is used to change the content in the same file
+   77  cat m1.txt
+   81  nano k1.txt  ------nano is a text editor to save ctrl+s , to exit ctrl+x
+   82  ls
+   83  cat k1.txt
+   84  cd
+   85  ls
+   86  cd b1
+   87  ls
+   88  nano m2.txt
+   89  cat m2.txt
+   96  cd folder1
+   97  vi dev.txt------it is also a editor like nono to insert mode : i , to command mode: esc, to save and exit- :wq
+   98  cat dev.txt
+   99  ls
+  100  vi dev.txt------------- to exit without saving - :q!
+  101  cat dev.txt
+  102  vi dev.txt
+  103  cat dev.txt
+   92  ls
+   93  cd b1
+   94  ls
+   95  cd
+   96  cd folder1
+   97  vi dev.txt
+   98  cat dev.txt
+   99  ls
+  100  vi dev.txt
+  101  cat dev.txt
+  102  vi dev.txt
+  103  cat dev.txt
+  104  history
+  105  cd
+  106  ls
+  107  mkdir g1
+  108  ls
+  109  cd g1
+  110  touch m4.txt
+  111  rm m4.txt
+  112  ls
+  113  cd
+  114  ls
+  115  rmdir g1
+  116  rmdir g1
+  117  ls
+  118  rmdir a1
+  119  rm -r a1
+  120  ls
+  121  rm -r a1,b1,c1
+  122  ls
+  123  rm -r * -----------------remove all using flag -r and wildcard *
+  124  ls
+  125  history
+  126  clear
+  127  mkdir a1 s1 q1 d1
+  128  touch f1.txt d2.txt m2.txt m4.txt
+  129  ls
+  130  cp d2.txt q1
+  131  cd q1
+  132  ls
+  133  cd
+  134  cd a1
+  135  mkdir a2
+  136  cd a2
+  137  mkdir a3
+  138  cd
+  139  cp f1.txt a1/a2/a3
+  140  cd a1/a2/a3
+  141  ls
+  142  cp -r d2.txt m2.txt a1/a2/a3
+  143  cp -r d2.txt m2.txt a1/a2/a3/
+  144  cp -r d2.txt m2.txt a1
+  145  cp -r d2.txt m2.txt q1/
+  146  ls
+  147  cd
+  148  cp -r d2.txt m2.txt a1/a2/a3/
+  149  cd a1/a2/a3
+  150  ls
+  151  cd
+  152  history
+  153  ls
+  154  cp -r d2.txt d1 s1 m2.txt q1----------copy multiple files and directory in q1 using flag -r
+  155  ls
+  156  cd s1
+  157  ls
+  158  cd
+  159  cd q1
+  160  ls
+  161  rm -r d2.txt m2.txt d1 s1 
+  162  ls
+  163  cd
+  164  mv m4.txt s1
+  165  ls
+  166  mv d2.txt f1.txt m2.txt s1
+  167  ls
+  168  cd s1
+  169  ls
+  170  cd
+  171  ls
+  172  mkdir m5.txt
+  173  ls
+  174  cat m5.txt
+  175  ls 
+  176  cat m5.txt
+  177  touch m5.txt
+  178  ls
+  179  cat m5.txt
+  180  echo "hello world" > m5.txt
+  181  rm m5.txt
+  182  touch m5.txt
+  183  ls
+  184  echo "hello world" > m5.txt
+  185  rm m5.txt
+  186  rm -r m5.txt------------remove m5.txt using flag -r
+  187  touch g1.txt
+  188  ls
+  189  echo "hello world " > g1.txt
+  190  ls
+  191  cat g1.txt
+  192  echo "goodmorning " >> g1.txt
+  193  ls
+  194  cat g1.txt
+  195  ls
+  196  mv g1.txt dev.txt---------- it will rename the g1.txt to dev.txt
+  197  ls
+  198  cat dev.txt
+  199  history
+  200  mkdir s1/s2/s3
+  201  mkdir -p x1/x2/x3
+  202  ls
+  203  cd x1/x2/x3
+  204  pwd
+  205  ls
+  206  mkdir -p k1/l2/l4/l6  will create a parent sub folder inside one folder
+  207  ls
+  208  cd k1
+  209  ls
+  210  cd ls
+  211  cd l2
+  212  ls
+  213  cd l4
+  214  ls
+  215  cd l6
+  216  ls
+  217  cd ..
+  218  cd
+  219  pwd
+  220  man ls-----------user manual
+  222  man mkdir
+  223  man cp
+  224  man rm
+  225  ls -R
+  226  ls
+  227  ls q1
+  228  ls s1
+  229  ls -R s1---------- it will list out all the files and folder
+  230  ls s1
+  231  ls -R
+  232  history
+  233  sudo su---------super user or root exit to get out of root
+  234  sudo apt install apache2 -y
+ 235  sudo su
+  236  sudo apt install apache -y
+  237  sudo apt install apache2 -y
+  238  history
+  239  service apache2 status
+  240  service apache2 stop
+  241  sudo service apache2 stop---------stop apache2
+  242  service apache2 status---------------status for apache2
+  243  sudo apache2 start
+  244  sudo service apache2 start -------start apache2
+  245  service apache2 status
+  246  sudo apt remove apache2 -y ------remove apache2
+  247  service apache2 status
+  248  history
+  249 alias ==== nickname 
+  250 alias drink="mkdir"
+ 249  alias
+  250  alias drink='mkdir'
+  251  drink o1
+  252  ls
+  253  mkdir h1
+  254  ls
+  257  alias sysupdate='sudo apt update'
+  258  sysupdate
