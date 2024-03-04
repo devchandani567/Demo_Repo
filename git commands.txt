@@ -1,0 +1,185 @@
+git add ------working directory to stagging area
+git commit------- stagging to local repo
+git push ------------local repo to remote repo
+
+ TOKEN : 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  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
+
+ 280  apt update
+  281  sudo apt update
+  282  clear
+  283  git version
+  284  ls
+  285  ls l
+  286  ls -l
+  287  mkdir d2
+  288  cd mkdir d2
+  289  cd d2
+  290  git clone https://github.com/raushan8586/devops-2023-september.git
+  291  ls -l
+  292  cd devops-2023-september
+  293  ls -l
+  294  cd
+  295  cd d2
+  296  git clone https://github.com/raushan8586/Demo_Repo.git
+  297  ls -l
+  298  cd Demo_Repo/
+  299  ls -l
+  300  history
+  301  clear
+  302  ls
+  303  cd d2
+  304  ls
+  305  cd Demo_Repo/
+  306  ls
+  307  ls -1
+  308  ls -la
+  309  cd
+  310  mkdir f1
+  311  cd f1
+  312  cd ..
+  313  cd f1
+  314  ls
+  315  ls -la
+  316  git init
+  317  git branch
+  318  touch sample1.java
+  319  vi sample.java
+  320  cat sample.java
+  321  ls -la
+  322  git branch
+  323  ls -l
+  324  git add
+  325  git add sample.java
+  326  git status
+  327  git ls-files
+  328  vi sample1.java
+  329  git status
+  330  git add sample1.java
+  331  git status
+  332  git ls-l
+  335  git ls-files
+  336  git commit -m "1st commit"
+  337  ls -l
+  338  ls -la
+  339  git init
+  340  git status
+  340  git status
+  341  history
+  342  git log
+  343  git show
+  344  git status
+  345  git show 9c9e37e820c5ccaef05c9033e420c151de5ee8fd 
+  346   281  sudo apt update
+  282  clear
+  283  git version
+  284  ls
+  285  ls l
+  286  ls -l
+  287  mkdir d2
+  288  cd mkdir d2
+  289  cd d2
+  290  git clone https://github.com/raushan8586/devops-2023-september.git
+  291  ls -l
+  292  cd devops-2023-september
+  293  ls -l
+  294  cd
+  295  cd d2
+  296  git clone https://github.com/raushan8586/Demo_Repo.git
+  297  ls -l
+  298  cd Demo_Repo/
+  299  ls -l
+  300  history
+  301  clear
+  302  ls
+  303  cd d2
+  304  ls
+  305  cd Demo_Repo/
+  306  ls
+  307  ls -1
+  308  ls -la
+  309  cd
+  310  mkdir f1
+  311  cd f1
+  312  cd ..
+  313  cd f1
+  314  ls
+  315  ls -la
+  316  git init
+  317  git branch
+  318  touch sample1.java
+  319  vi sample.java
+  320  cat sample.java
+  321  ls -la
+  322  git branch
+  323  ls -l
+  324  git add
+  325  git add sample.java
+  326  git status
+  327  git ls-files
+  328  vi sample1.java
+  329  git status
+  330  git add sample1.java
+  331  git status
+  332  git ls-l
+  333  git files-ls
+  334  git files-la
+  335  git ls-files
+  336  git commit -m "1st commit"
+  337  ls -l
+  338  ls -la
+  339  git init
+  340  git status
+  341  history
+  342  git log
+  343  git show
+  344  git status
+  345  git show 9c9e37e820c5ccaef05c9033e420c151de5ee8fd 
+  346  ls
+  347  cd project1
+  348  ls
+  349  ls -l
+  350  ls -la
+  351  git show 
+  352  git status
+  353  git log --online
+  354  git log
+  355  git log --oneline
+  356  git remote -v
+  357  git remote add orgin 
+  358  git remote add orgin master
+  359  git remote -v
+  360  git remove origin master
+  361  git push origin 
+  362  git push origin master
+  363  git log
+  364  git log --oneline
+  365  git branch b1 master
+  366  git branch
+  367  git checkout b1
+  368  git branch
+  369  git log --online
+  370  git  log --oneline
+  371  vi sample4.java
+  372  git commit -m "1st commit"
+  373  git add .
+  374  git commit -m "1st commit"
+  375  git show
+  376  git status
+  377  git push origin b1
+  378  git log --online
+  379  git log --oneline
+  380  git log
+  381  git checkout master
+  382  git log --oneline
+  383  git pull origin b1
+  384  git log --oneline
+  385  git branch
+  386  git pull origin master
+  387  git log
+  388  git log --oneline
+  389  git branch b1
+  390  git checkout b1
+  391  git branch
+  392  git rebase b1 master
+  393  git log --oneline
+  394  history
