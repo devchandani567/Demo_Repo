@@ -10,7 +10,7 @@ git push ------------local repo to remote repo
   283  git version
   284  ls
   285  ls l
-  286  ls -l
+  286  ls -l-----FILE IN WORKING DIRECTORY
   287  mkdir d2
   288  cd mkdir d2
   289  cd d2
@@ -51,14 +51,14 @@ git push ------------local repo to remote repo
   324  git add
   325  git add sample.java
   326  git status
-  327  git ls-files
+  327  git ls-files-----------FILE IS IN STAGGING AREA OR LOCAL REPO
   328  vi sample1.java
-  329  git status
+  329  git status-----------FILE IN STATGGING AREA
   330  git add sample1.java
   331  git status
   332  git ls-l
   335  git ls-files
-  336  git commit -m "1st commit"
+  336  git commit -m "1st commit"------------FILE IS IN LOCL REPO
   337  ls -l
   338  ls -la
   339  git init
