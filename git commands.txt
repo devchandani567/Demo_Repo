@@ -3,6 +3,7 @@ git commit------- stagging to local repo
 git push ------------local repo to remote repo
 
  TOKEN : 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  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
+ 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
 
  280  apt update
   281  sudo apt update
@@ -10,7 +11,7 @@ git push ------------local repo to remote repo
   283  git version
   284  ls
   285  ls l
-  286  ls -l-----FILE IN WORKING DIRECTORY
+  286  ls -l
   287  mkdir d2
   288  cd mkdir d2
   289  cd d2
@@ -51,14 +52,14 @@ git push ------------local repo to remote repo
   324  git add
   325  git add sample.java
   326  git status
-  327  git ls-files-----------FILE IS IN STAGGING AREA OR LOCAL REPO
+  327  git ls-files
   328  vi sample1.java
-  329  git status-----------FILE IN STATGGING AREA
+  329  git status
   330  git add sample1.java
   331  git status
   332  git ls-l
   335  git ls-files
-  336  git commit -m "1st commit"------------FILE IS IN LOCL REPO
+  336  git commit -m "1st commit"
   337  ls -l
   338  ls -la
   339  git init
@@ -136,6 +137,7 @@ git push ------------local repo to remote repo
   345  git show 9c9e37e820c5ccaef05c9033e420c151de5ee8fd 
   346  ls
   347  cd project1
+git push --all
   348  ls
   349  ls -l
   350  ls -la
@@ -145,7 +147,6 @@ git push ------------local repo to remote repo
   354  git log
   355  git log --oneline
   356  git remote -v
-  357  git remote add orgin 
   358  git remote add orgin master
   359  git remote -v
   360  git remove origin master
@@ -162,6 +163,7 @@ git push ------------local repo to remote repo
   371  vi sample4.java
   372  git commit -m "1st commit"
   373  git add .
+14th dec
   374  git commit -m "1st commit"
   375  git show
   376  git status
@@ -176,10 +178,151 @@ git push ------------local repo to remote repo
   385  git branch
   386  git pull origin master
   387  git log
-  388  git log --oneline
+  388  git log --oneline 
   389  git branch b1
   390  git checkout b1
   391  git branch
   392  git rebase b1 master
   393  git log --oneline
-  394  history
+  394  history 
+3  ls -l
+  574  vi sample6.java
+  575  git add.
+  576  git add .
+  577  git commit -m "2nd commit"
+  578  git status
+  579  git branch b1
+  580  git checkout b2
+  581  git status
+  582  vi .gitignore
+  583  git status
+  584  vi .gitignore
+  585  git status
+  586  git add .
+  587  ls -l
+  588  git status
+  589  git commit -m ".gitignore added"
+  590  vi sample5.java
+  591  git add .
+  592  ls -l
+  593  git commit -m "this is my second commit"
+  594  git status
+  595  git show
+  596  git show --oneline
+  597  git revert 89bf38c
+  598  git show
+  599  git show --oneline 
+git config --global user.name "devanshu"
+git config --global user.email ""
+
+resert hard, soft , mixed
+
+git reset --hard commit id
+git restore --stagged sample5.txt
+
+
+
+  635  mkdir project2
+  636  touch code.txt log.txt output.txt
+  637  ls
+  638  mv code.txt log.txt output.txt project2
+  639  ls
+  640  cd project2
+  641  ls
+  642  ls -l
+  643  git init
+  644  ls -la
+  645  git add code.txt output.txt
+  646  ls -l
+  647  git show
+  648  git status
+  649  git commit -m "1st commit"
+  650  git show
+  651  git show --oneline
+  652  git commit -m "2nd commit"
+  653  git show --oneline
+  654  git remote add origin  https://github.com/devchandani567/CHANDU.git
+  655  git remote -v
+  656  git push origin master
+  657  history
+
+704  assingment3
+  705  mkdir assingment3
+  706  cd assingment
+  707  cd assingment3
+  708  git init
+  709  touch main.txt
+  710  git add .
+  711  git commit -m "main.txt"
+  712  git status
+  713  git show
+  714  git branch Develop
+  715  git branch f1
+  716  git branch f2
+  717  git branch
+  718  git checkout Develop 
+  719  git add .
+  720  git commit -m "develop.txt"
+  721  git checkout f1
+  722  touch f1.txt
+  723  git add f1.txt
+  724  git commit -m "f1.txt
+  725  git commit -m "f1.txt"
+  726  git checkout f2
+  727  git add f2.txt
+  728  touch f2.txt
+  729  git add f2.txt
+  730  git commit -m "f2.txt"
+  745  git remote remove origin
+  746  git remote -v
+  747  git remote add origin https://github.com/devchandani567/assingment3.git
+  748  git remote -v
+  749  git push --all
+  750  history
+  751  git branch
+  752  git checkout master
+  753  git branch -D f2
+  754  git branch
+  755  git push --delete f2
+  756  git push --delete origin f2
+  757  history
+
+  761  cd assingment
+  762  ls
+  763  git init
+  764  touch master.txt
+  765  git add .
+  766  git commit -m "master.txt
+  767  git commit -m "master.txt"
+  768  git branch 
+  769  git branch public1
+  770  git branch public2 
+  771  git branch private
+  772  git checkout public1
+  773  touch public1.txt
+  774  git add .
+  775  git commit -m "public.txt"
+  776  git checkout master
+  777  git merge public1
+  778  git merge public2
+  779  git checkout private
+  780  ls
+  781  vi master.txt
+  782  git status
+  783  git add .
+  784  git commit -m "commit modified file"
+  785  git checkout public
+  786  git checkout public1
+  787  cat master.txt
+  788  git merge private
+  789  cat master.txt
+  790  git checkout public2
+  791  cat master.txt
+  792  git merge private
+  793  cat master.txt
+  794  git checkout master
+  795  cat master.txt
+  796  git merge private
+  797  cat master.txt
+  798  history
+ 
